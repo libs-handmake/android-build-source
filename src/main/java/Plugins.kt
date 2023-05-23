@@ -5,6 +5,6 @@ object Plugins {
 }
 
 object PluginsVer{
-    const val GRADLE_VER = "7.4.1"
+    const val GRADLE_VER = "8.0.1"
     const val HILT_VER = "2.44"
 }
