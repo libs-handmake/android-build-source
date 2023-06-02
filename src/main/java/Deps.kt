@@ -36,6 +36,7 @@ object Deps {
     const val CIRCLE_IMAGE_VIEW = "de.hdodenhof:circleimageview:${DepVers.CIRCLE_IMAGEVIEW_VER}"
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${DepVers.FRAGMENT_VERSION}"
     const val ROUNDED_IMAGEVIEW = "com.makeramen:roundedimageview:${DepVers.ROUNDED_IMAGE_VERSION}"
+    const val FLEXBOX_LAYOUT = "com.google.android.flexbox:flexbox:${DepVers.FLEXBOX_VER}"
 }
 
 object DepVers {
@@ -57,4 +58,5 @@ object DepVers {
     const val CIRCLE_IMAGEVIEW_VER = "3.1.0"
     const val FRAGMENT_VERSION = "1.5.5"
     const val ROUNDED_IMAGE_VERSION = "2.3.0"
+    const val FLEXBOX_VER = "3.0.0"
 }
