@@ -12,20 +12,30 @@ object Deps {
     const val GSON = "com.google.code.gson:gson:${DepVers.GSON_VER}"
     const val EVENT_BUS = "org.greenrobot:eventbus:${DepVers.EVENTBUS_VER}"
     const val SDP = "com.intuit.sdp:sdp-android:${DepVers.SDP_VER}"
+    const val SSP = "com.intuit.ssp:ssp-android:${DepVers.SDP_VER}"
     const val LIFECYCLE_VM = "androidx.lifecycle:lifecycle-viewmodel-ktx:${DepVers.LIFECYCLE_VER}"
-    const val LIFECYCLE_LIVE_DATA = "androidx.lifecycle:lifecycle-livedata-ktx:${DepVers.LIFECYCLE_VER}"
-    const val LIFECYCLE_RUN_TIME = "androidx.lifecycle:lifecycle-runtime-ktx:${DepVers.LIFECYCLE_VER}"
-    const val LIFECYCLE_VM_STATE = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${DepVers.LIFECYCLE_VER}"
-    const val LIFECYCLE_JAVA_COMMON = "androidx.lifecycle:lifecycle-common-java8:${DepVers.LIFECYCLE_VER}"
+    const val LIFECYCLE_LIVE_DATA =
+        "androidx.lifecycle:lifecycle-livedata-ktx:${DepVers.LIFECYCLE_VER}"
+    const val LIFECYCLE_RUN_TIME =
+        "androidx.lifecycle:lifecycle-runtime-ktx:${DepVers.LIFECYCLE_VER}"
+    const val LIFECYCLE_VM_STATE =
+        "androidx.lifecycle:lifecycle-viewmodel-savedstate:${DepVers.LIFECYCLE_VER}"
+    const val LIFECYCLE_JAVA_COMMON =
+        "androidx.lifecycle:lifecycle-common-java8:${DepVers.LIFECYCLE_VER}"
     const val GLIDE = "com.github.bumptech.glide:glide:${DepVers.GLIDE_VER}"
     const val GLIDE_COMPILER = "com.github.bumptech.glide:compiler:${DepVers.GLIDE_VER}"
     const val LOTTIES = "com.airbnb.android:lottie:${DepVers.LOTTIE_VER}"
     const val RETROFIT = "com.squareup.retrofit2:retrofit:${DepVers.RETROFIT_VER}"
-    const val RETROFIT_GSON_CONVERTER = "com.squareup.retrofit2:converter-gson:${DepVers.RETROFIT_VER}"
-    const val RETROFIT_SCALAR_CONVERTER = "com.squareup.retrofit2:converter-scalars:${DepVers.RETROFIT_VER}"
+    const val RETROFIT_GSON_CONVERTER =
+        "com.squareup.retrofit2:converter-gson:${DepVers.RETROFIT_VER}"
+    const val RETROFIT_SCALAR_CONVERTER =
+        "com.squareup.retrofit2:converter-scalars:${DepVers.RETROFIT_VER}"
     const val ROOM_RUNTIME = "androidx.room:room-runtime:${DepVers.ROOM_VER}"
     const val ROOM_KTX = "androidx.room:room-ktx:${DepVers.ROOM_VER}"
     const val ROOM_COMPILER = "androidx.room:room-compiler:${DepVers.ROOM_VER}"
+    const val CIRCLE_IMAGE_VIEW = "de.hdodenhof:circleimageview:${DepVers.CIRCLE_IMAGEVIEW_VER}"
+    const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${DepVers.FRAGMENT_VERSION}"
+    const val ROUNDED_IMAGEVIEW = "com.makeramen:roundedimageview:${DepVers.ROUNDED_IMAGE_VERSION}"
 }
 
 object DepVers {
@@ -44,4 +54,7 @@ object DepVers {
     const val LOTTIE_VER = "5.2.0"
     const val RETROFIT_VER = "2.9.0"
     const val ROOM_VER = "2.5.0"
+    const val CIRCLE_IMAGEVIEW_VER = "3.1.0"
+    const val FRAGMENT_VERSION = "1.5.5"
+    const val ROUNDED_IMAGE_VERSION = "2.3.0"
 }
