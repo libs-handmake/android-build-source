@@ -37,6 +37,19 @@ object Deps {
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${DepVers.FRAGMENT_VERSION}"
     const val ROUNDED_IMAGEVIEW = "com.makeramen:roundedimageview:${DepVers.ROUNDED_IMAGE_VERSION}"
     const val FLEXBOX_LAYOUT = "com.google.android.flexbox:flexbox:${DepVers.FLEXBOX_VER}"
+
+    val CAMERAX_REQUIREMENT_LIBS = arrayOf(
+        "androidx.camera:camera-core:${DepVers.CAMERAX_VER}",
+        "androidx.camera:camera-camera2:${DepVers.CAMERAX_VER}",
+        "androidx.camera:camera-lifecycle:${DepVers.CAMERAX_VER}",
+        "androidx.camera:camera-view:${DepVers.CAMERAX_VER}"
+    )
+
+    val EXO_PLAYER_LIBS = arrayOf(
+        "androidx.media3:media3-exoplayer:${DepVers.EXO_PLAYER_VER}",
+        "androidx.media3:media3-exoplayer-dash:${DepVers.EXO_PLAYER_VER}",
+        "androidx.media3:media3-ui:${DepVers.EXO_PLAYER_VER}"
+    )
 }
 
 object DepVers {
@@ -59,4 +72,6 @@ object DepVers {
     const val FRAGMENT_VERSION = "1.5.5"
     const val ROUNDED_IMAGE_VERSION = "2.3.0"
     const val FLEXBOX_VER = "3.0.0"
+    const val CAMERAX_VER = "1.3.0-alpha07"
+    const val EXO_PLAYER_VER = "1.0.2"
 }
