@@ -44,6 +44,13 @@ object Deps {
     const val GOOGLE_ADS_IDENTIFIER =
         "com.google.android.gms:play-services-ads-identifier:18.0.1:${DepVers.GOOGLE_ADS_IDENTIFIER}"
 
+    const val FIREBASE_BOM = "com.google.firebase:firebase-bom:${DepVers.FIREBASE_BOM_VER}"
+    const val FIREBASE_ANALYTICS = "com.google.firebase:firebase-analytics-ktx"
+    const val FIREBASE_CRASHLYTIC = "com.google.firebase:firebase-crashlytics-ktx"
+    const val FIREBASE_REMOTE_CONFIG = "com.google.firebase:firebase-config-ktx"
+    const val ADMOB = "com.google.android.gms:play-services-ads:${DepVers.ADMOB_VER}"
+    const val SHIMMER_LAYOUT = "com.facebook.shimmer:shimmer:${DepVers.SHIMMER_VER}"
+
     val CAMERAX_REQUIREMENT_LIBS = arrayOf(
         "androidx.camera:camera-core:${DepVers.CAMERAX_VER}",
         "androidx.camera:camera-camera2:${DepVers.CAMERAX_VER}",
@@ -84,4 +91,7 @@ object DepVers {
     const val APP_LOVIN_VER = "11.9.0"
     const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
     const val GOOGLE_ADS_IDENTIFIER = "18.0.1"
+    const val FIREBASE_BOM_VER = "32.1.0"
+    const val ADMOB_VER = "22.1.0"
+    const val SHIMMER_VER = "0.5.0"
 }

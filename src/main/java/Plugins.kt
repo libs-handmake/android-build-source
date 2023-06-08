@@ -3,6 +3,8 @@ object Plugins {
     const val ANDROID_LIBS = "com.android.library"
     const val HILT = "com.google.dagger.hilt.android"
     const val PACELIZE = "kotlin-parcelize"
+    const val GOOGLE_SERVICE = "com.google.gms.google-services"
+    const val CRASHLYTIC = "com.google.firebase.crashlytics"
     const val CHECK_DEPENDENCIES_UPDATE = "com.github.ben-manes.versions"
     const val APP_LOVIN_SERVICE = "applovin-quality-service"
 }
