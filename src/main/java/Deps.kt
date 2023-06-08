@@ -37,6 +37,12 @@ object Deps {
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${DepVers.FRAGMENT_VERSION}"
     const val ROUNDED_IMAGEVIEW = "com.makeramen:roundedimageview:${DepVers.ROUNDED_IMAGE_VERSION}"
     const val FLEXBOX_LAYOUT = "com.google.android.flexbox:flexbox:${DepVers.FLEXBOX_VER}"
+    const val MEDIA = "androidx.media:media:${DepVers.MEDIA_VER}"
+    const val APP_LOVIN = "com.applovin:applovin-sdk:${DepVers.APP_LOVIN_VER}"
+    const val GOOGLE_PLAY_SERVICE =
+        "com.google.android.gms:play-services-location:${DepVers.GOOGLE_PLAY_SERVICE_VER}"
+    const val GOOGLE_ADS_IDENTIFIER =
+        "com.google.android.gms:play-services-ads-identifier:18.0.1:${DepVers.GOOGLE_ADS_IDENTIFIER}"
 
     val CAMERAX_REQUIREMENT_LIBS = arrayOf(
         "androidx.camera:camera-core:${DepVers.CAMERAX_VER}",
@@ -74,4 +80,8 @@ object DepVers {
     const val FLEXBOX_VER = "3.0.0"
     const val CAMERAX_VER = "1.3.0-alpha07"
     const val EXO_PLAYER_VER = "1.0.2"
+    const val MEDIA_VER = "1.6.0"
+    const val APP_LOVIN_VER = "11.9.0"
+    const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
+    const val GOOGLE_ADS_IDENTIFIER = "18.0.1"
 }
