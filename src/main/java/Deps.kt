@@ -42,7 +42,7 @@ object Deps {
     const val GOOGLE_PLAY_SERVICE =
         "com.google.android.gms:play-services-location:${DepVers.GOOGLE_PLAY_SERVICE_VER}"
     const val GOOGLE_ADS_IDENTIFIER =
-        "com.google.android.gms:play-services-ads-identifier:18.0.1:${DepVers.GOOGLE_ADS_IDENTIFIER}"
+        "com.google.android.gms:play-services-ads-identifier:${DepVers.GOOGLE_ADS_IDENTIFIER}"
 
     const val FIREBASE_BOM = "com.google.firebase:firebase-bom:${DepVers.FIREBASE_BOM_VER}"
     const val FIREBASE_ANALYTICS = "com.google.firebase:firebase-analytics-ktx"
@@ -88,7 +88,7 @@ object DepVers {
     const val CAMERAX_VER = "1.3.0-alpha07"
     const val EXO_PLAYER_VER = "1.0.2"
     const val MEDIA_VER = "1.6.0"
-    const val APP_LOVIN_VER = "11.9.0"
+    const val APP_LOVIN_VER = "+"
     const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
     const val GOOGLE_ADS_IDENTIFIER = "18.0.1"
     const val FIREBASE_BOM_VER = "32.1.0"
