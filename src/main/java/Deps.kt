@@ -18,6 +18,7 @@ object Deps {
         "androidx.lifecycle:lifecycle-livedata-ktx:${DepVers.LIFECYCLE_VER}"
     const val LIFECYCLE_RUN_TIME =
         "androidx.lifecycle:lifecycle-runtime-ktx:${DepVers.LIFECYCLE_VER}"
+    const val LIFECYCLE_PROCESS = "androidx.lifecycle:lifecycle-process:${DepVers.LIFECYCLE_VER}"
     const val LIFECYCLE_VM_STATE =
         "androidx.lifecycle:lifecycle-viewmodel-savedstate:${DepVers.LIFECYCLE_VER}"
     const val LIFECYCLE_JAVA_COMMON =

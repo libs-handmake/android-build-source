@@ -12,6 +12,6 @@ object Plugins {
 object PluginsVer {
     const val GRADLE_VER = "8.0.1"
     const val HILT_VER = "2.44"
-    const val UPDATE_VER = "0.46.0"
+    const val UPDATE_VER = "0.47.0"
     const val APP_LOVIN_VER = "4.3.7"
 }
