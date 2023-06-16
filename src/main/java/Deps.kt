@@ -13,6 +13,7 @@ object Deps {
     const val EVENT_BUS = "org.greenrobot:eventbus:${DepVers.EVENTBUS_VER}"
     const val SDP = "com.intuit.sdp:sdp-android:${DepVers.SDP_VER}"
     const val SSP = "com.intuit.ssp:ssp-android:${DepVers.SDP_VER}"
+    const val SDP_COMPOSE = "com.github.Kaaveh:sdp-compose:${DepVers.SDP_COMPOSE_VER}"
     const val LIFECYCLE_VM = "androidx.lifecycle:lifecycle-viewmodel-ktx:${DepVers.LIFECYCLE_VER}"
     const val LIFECYCLE_LIVE_DATA =
         "androidx.lifecycle:lifecycle-livedata-ktx:${DepVers.LIFECYCLE_VER}"
@@ -78,6 +79,7 @@ object DepVers {
     const val GSON_VER = "2.10"
     const val EVENTBUS_VER = "3.3.1"
     const val SDP_VER = "1.1.0"
+    const val SDP_COMPOSE_VER = "1.1.0"
     const val LIFECYCLE_VER = "2.5.1"
     const val GLIDE_VER = "4.15.1"
     const val LOTTIE_VER = "5.2.0"
@@ -97,4 +99,5 @@ object DepVers {
     const val FIREBASE_BOM_VER = "32.1.0"
     const val ADMOB_VER = "22.1.0"
     const val SHIMMER_VER = "0.5.0"
+    const val NAVIAGATION_VER = "2.5.3"
 }
