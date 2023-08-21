@@ -66,6 +66,13 @@ object Deps {
         "androidx.media3:media3-exoplayer-dash:${DepVers.EXO_PLAYER_VER}",
         "androidx.media3:media3-ui:${DepVers.EXO_PLAYER_VER}"
     )
+
+    val ADJUST_SDK_LIBS = arrayOf(
+        "com.adjust.sdk:adjust-android:${DepVers.ADJUST_SDK_VER}",
+        "com.android.installreferrer:installreferrer:2.2",
+        "com.google.android.gms:play-services-appset:16.0.2",
+        "com.adjust.sdk:adjust-android-webbridge:${DepVers.ADJUST_SDK_VER}"
+    )
 }
 
 object DepVers {
@@ -100,4 +107,5 @@ object DepVers {
     const val ADMOB_VER = "22.1.0"
     const val SHIMMER_VER = "0.5.0"
     const val NAVIAGATION_VER = "2.5.3"
+    const val ADJUST_SDK_VER = "4.33.5"
 }
