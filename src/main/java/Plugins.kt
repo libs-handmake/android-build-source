@@ -10,8 +10,8 @@ object Plugins {
 }
 
 object PluginsVer {
-    const val GRADLE_VER = "8.0.1"
-    const val HILT_VER = "2.44"
+    const val GRADLE_VER = "8.1.1"
+    const val HILT_VER = "2.47"
     const val UPDATE_VER = "0.47.0"
     const val APP_LOVIN_VER = "4.3.7"
     const val COMPOSE_COMPILER = "1.4.7"

@@ -3,11 +3,13 @@ object AdmobDeps {
     const val MINTENGRAL_ADAPTER =
         "com.google.ads.mediation:mintegral:${AdmobDepsVer.MINTEGRAL_VERS}"
     const val IRONSOURCE_ADAPTER = "com.google.ads.mediation:ironsource:${AdmobDepsVer.IRON_SOURCE_VERS}"
+    const val PANGLE_ADAPTER = "com.google.ads.mediation:pangle:${AdmobDepsVer.PANGLE_VERS}"
 }
 
 
 object AdmobDepsVer {
-    const val APPLOVIN_VERS = "11.10.1.0"
-    const val MINTEGRAL_VERS = "16.4.51.0"
-    const val IRON_SOURCE_VERS = "7.3.1.0"
+    const val APPLOVIN_VERS = "11.11.2.0"
+    const val MINTEGRAL_VERS = "16.4.91.0"
+    const val IRON_SOURCE_VERS = "7.4.0.0"
+    const val PANGLE_VERS = "5.3.0.6.0"
 }
