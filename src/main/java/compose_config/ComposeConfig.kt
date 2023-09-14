@@ -9,6 +9,7 @@ fun DependencyHandlerScope.composeImplementations() {
     "implementation"(composeBom)
     "androidTestImplementation"(composeBom)
 
+    "implementation"("androidx.compose.ui:ui-graphics")
     // Choose one of the following:
     // Material Design 3
     "implementation"("androidx.compose.material3:material3")
@@ -36,10 +37,14 @@ fun DependencyHandlerScope.composeImplementations() {
     "implementation"("androidx.activity:activity-compose:1.7.2")
     // Optional - Integration with ViewModels
     "implementation"("androidx.lifecycle:lifecycle-viewmodel-compose:${DepVers.LIFECYCLE_VER}")
+    "implementation"("androidx.lifecycle:lifecycle-runtime-compose:${DepVers.LIFECYCLE_VER}")
     // Optional - Integration with LiveData
     "implementation"("androidx.compose.runtime:runtime-livedata")
     "implementation"("androidx.navigation:navigation-compose:${DepVers.NAVIAGATION_VER}")
     //sdp support
     "implementation"(Deps.SDP_COMPOSE)
+    //other support
+    "implementation"(Deps.HILT_NAV_COMPOSE)
+    "implementation"(Deps.GLIDE_COMPOSE)
 
 }

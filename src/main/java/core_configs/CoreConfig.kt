@@ -11,6 +11,7 @@ fun DependencyHandlerScope.coreAppImplementations(){
     "androidTestImplementation"(Deps.JUNIT_TEST_EXT)
     "androidTestImplementation"(Deps.EPRESSO_CORE)
     "implementation"(Deps.RECYCLER_VIEW)
+    "implementation"(Deps.GSON)
 }
 
 fun DependencyHandlerScope.jetpackComponentImplementation(){

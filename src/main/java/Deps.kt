@@ -73,6 +73,14 @@ object Deps {
         "com.google.android.gms:play-services-appset:16.0.2",
         "com.adjust.sdk:adjust-android-webbridge:${DepVers.ADJUST_SDK_VER}"
     )
+
+    const val TENSORFLOW_AUDIO_TASK =
+        "org.tensorflow:tensorflow-lite-task-audio:${DepVers.TENSOR_FLOW_AUDIO_TASK}"
+
+    const val COMPOSE_LOTTIES = "com.airbnb.android:lottie-compose:${DepVers.LOTTIE_VER}"
+    const val GLIDE_COMPOSE = "com.github.bumptech.glide:compose:${DepVers.GLIDE_COMPOSE}"
+    const val HILT_NAV_COMPOSE =
+        "androidx.hilt:hilt-navigation-compose:${DepVers.HILT_NAV_COMPOSE_VER}"
 }
 
 object DepVers {
@@ -87,7 +95,7 @@ object DepVers {
     const val EVENTBUS_VER = "3.3.1"
     const val SDP_VER = "1.1.0"
     const val SDP_COMPOSE_VER = "1.1.0"
-    const val LIFECYCLE_VER = "2.6.1"
+    const val LIFECYCLE_VER = "2.6.2"
     const val GLIDE_VER = "4.16.0"
     const val LOTTIE_VER = "6.1.0"
     const val RETROFIT_VER = "2.9.0"
@@ -108,4 +116,7 @@ object DepVers {
     const val SHIMMER_VER = "0.5.0"
     const val NAVIAGATION_VER = "2.5.3"
     const val ADJUST_SDK_VER = "4.34.0"
+    const val TENSOR_FLOW_AUDIO_TASK = "0.4.4"
+    const val HILT_NAV_COMPOSE_VER = "1.0.0"
+    const val GLIDE_COMPOSE = "1.0.0-alpha.5"
 }
