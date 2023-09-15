@@ -79,6 +79,7 @@ object Deps {
 
     const val COMPOSE_LOTTIES = "com.airbnb.android:lottie-compose:${DepVers.LOTTIE_VER}"
     const val GLIDE_COMPOSE = "com.github.bumptech.glide:compose:${DepVers.GLIDE_COMPOSE}"
+    const val SHIMMER_COMPOSE = "com.valentinilk.shimmer:compose-shimmer:${DepVers.SHIMMER_COMPOSE}"
     const val HILT_NAV_COMPOSE =
         "androidx.hilt:hilt-navigation-compose:${DepVers.HILT_NAV_COMPOSE_VER}"
     const val IRONSOURCE_ADAPTER =
@@ -123,6 +124,7 @@ object DepVers {
     const val TENSOR_FLOW_AUDIO_TASK = "0.4.4"
     const val HILT_NAV_COMPOSE_VER = "1.0.0"
     const val GLIDE_COMPOSE = "1.0.0-alpha.5"
+    const val SHIMMER_COMPOSE = "1.0.5"
     const val MINTEGRAL_VERS = "16.4.91.0"
     const val IRON_SOURCE_VERS = "7.4.0.0"
     const val PANGLE_VERS = "5.3.0.6.0"
