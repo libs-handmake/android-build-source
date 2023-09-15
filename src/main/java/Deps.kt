@@ -116,7 +116,7 @@ object DepVers {
     const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
     const val GOOGLE_ADS_IDENTIFIER = "18.0.1"
     const val FIREBASE_BOM_VER = "32.2.3"
-    const val ADMOB_VER = "22.3.0"
+    const val ADMOB_VER = "22.4.0"
     const val SHIMMER_VER = "0.5.0"
     const val NAVIAGATION_VER = "2.5.3"
     const val ADJUST_SDK_VER = "4.34.0"
