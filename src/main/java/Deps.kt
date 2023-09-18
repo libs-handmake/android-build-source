@@ -119,7 +119,7 @@ object DepVers {
     const val FIREBASE_BOM_VER = "32.2.3"
     const val ADMOB_VER = "22.4.0"
     const val SHIMMER_VER = "0.5.0"
-    const val NAVIAGATION_VER = "2.5.3"
+    const val NAVIAGATION_VER = "2.7.2"
     const val ADJUST_SDK_VER = "4.34.0"
     const val TENSOR_FLOW_AUDIO_TASK = "0.4.4"
     const val HILT_NAV_COMPOSE_VER = "1.0.0"
