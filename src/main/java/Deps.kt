@@ -58,13 +58,20 @@ object Deps {
         "androidx.camera:camera-core:${DepVers.CAMERAX_VER}",
         "androidx.camera:camera-camera2:${DepVers.CAMERAX_VER}",
         "androidx.camera:camera-lifecycle:${DepVers.CAMERAX_VER}",
-        "androidx.camera:camera-view:${DepVers.CAMERAX_VER}"
+        "androidx.camera:camera-view:${DepVers.CAMERAX_VER}",
+        "androidx.camera:camera-video:${DepVers.CAMERAX_VER}",
+        "androidx.camera:camera-extensions:${DepVers.CAMERAX_VER}"
     )
 
-    val EXO_PLAYER_LIBS = arrayOf(
-        "androidx.media3:media3-exoplayer:${DepVers.EXO_PLAYER_VER}",
-        "androidx.media3:media3-exoplayer-dash:${DepVers.EXO_PLAYER_VER}",
-        "androidx.media3:media3-ui:${DepVers.EXO_PLAYER_VER}"
+    val EXO_PLAYER_LIBS_3 = arrayOf(
+        "androidx.media3:media3-exoplayer:${DepVers.EXO_PLAYER_3_VER}",
+        "androidx.media3:media3-exoplayer-dash:${DepVers.EXO_PLAYER_3_VER}",
+        "androidx.media3:media3-ui:${DepVers.EXO_PLAYER_3_VER}"
+    )
+    val EXO_PLAYER_LIBS_2 = arrayOf(
+        "com.google.android.exoplayer:exoplayer-core:${DepVers.EXO_PLAYER_2_VER}",
+        "com.google.android.exoplayer:exoplayer-dash:${DepVers.EXO_PLAYER_2_VER}",
+        "com.google.android.exoplayer:exoplayer-ui:${DepVers.EXO_PLAYER_2_VER}"
     )
 
     val ADJUST_SDK_LIBS = arrayOf(
@@ -110,8 +117,9 @@ object DepVers {
     const val FRAGMENT_VERSION = "1.6.1"
     const val ROUNDED_IMAGE_VERSION = "2.3.0"
     const val FLEXBOX_VER = "3.0.0"
-    const val CAMERAX_VER = "1.3.0-alpha07"
-    const val EXO_PLAYER_VER = "1.1.1"
+    const val CAMERAX_VER = "1.3.0-alpha05"
+    const val EXO_PLAYER_3_VER = "1.1.1"
+    const val EXO_PLAYER_2_VER = "2.19.1"
     const val MEDIA_VER = "1.6.0"
     const val APP_LOVIN_VER = "+"
     const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
