@@ -53,6 +53,7 @@ object Deps {
     const val FIREBASE_REMOTE_CONFIG = "com.google.firebase:firebase-config-ktx"
     const val ADMOB = "com.google.android.gms:play-services-ads:${DepVers.ADMOB_VER}"
     const val SHIMMER_LAYOUT = "com.facebook.shimmer:shimmer:${DepVers.SHIMMER_VER}"
+    const val FLAG_KIT = "com.github.murgupluoglu:flagkit-android:${DepVers.FLAG_KIT_VER}"
 
     val CAMERAX_REQUIREMENT_LIBS = arrayOf(
         "androidx.camera:camera-core:${DepVers.CAMERAX_VER}",
@@ -127,6 +128,7 @@ object DepVers {
     const val FIREBASE_BOM_VER = "32.2.3"
     const val ADMOB_VER = "22.4.0"
     const val SHIMMER_VER = "0.5.0"
+    const val FLAG_KIT_VER = "1.0.2"
     const val NAVIAGATION_VER = "2.7.2"
     const val ADJUST_SDK_VER = "4.34.0"
     const val TENSOR_FLOW_AUDIO_TASK = "0.4.4"
