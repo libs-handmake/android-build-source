@@ -50,6 +50,7 @@ object Deps {
     const val FIREBASE_BOM = "com.google.firebase:firebase-bom:${DepVers.FIREBASE_BOM_VER}"
     const val FIREBASE_ANALYTICS = "com.google.firebase:firebase-analytics-ktx"
     const val FIREBASE_CRASHLYTIC = "com.google.firebase:firebase-crashlytics-ktx"
+    const val FIREBASE_CRASHLYTIC_NDK = "com.google.firebase:firebase-crashlytics-ndk"
     const val FIREBASE_REMOTE_CONFIG = "com.google.firebase:firebase-config-ktx"
     const val ADMOB = "com.google.android.gms:play-services-ads:${DepVers.ADMOB_VER}"
     const val SHIMMER_LAYOUT = "com.facebook.shimmer:shimmer:${DepVers.SHIMMER_VER}"
