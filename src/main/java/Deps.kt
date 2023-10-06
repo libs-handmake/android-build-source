@@ -95,6 +95,10 @@ object Deps {
         "com.google.ads.mediation:ironsource:${AdmobDepsVer.IRON_SOURCE_VERS}"
     const val PANGLE_ADAPTER = "com.google.ads.mediation:pangle:${AdmobDepsVer.PANGLE_VERS}"
     const val META_NETWORK = "com.google.ads.mediation:facebook:${AdmobDepsVer.META_VERS}"
+
+    const val FACEBOOK_CORE_SDK = "com.facebook.android:facebook-core:${DepVers.FACEBOOK_SDK_VERS}"
+    const val FACEBOOK_SDK =
+        "com.facebook.android:facebook-android-sdk:${DepVers.FACEBOOK_SDK_VERS}"
 }
 
 object DepVers {
@@ -126,7 +130,7 @@ object DepVers {
     const val APP_LOVIN_VER = "+"
     const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
     const val GOOGLE_ADS_IDENTIFIER = "18.0.1"
-    const val FIREBASE_BOM_VER = "32.2.3"
+    const val FIREBASE_BOM_VER = "32.3.1"
     const val ADMOB_VER = "22.4.0"
     const val SHIMMER_VER = "0.5.0"
     const val FLAG_KIT_VER = "1.0.2"
@@ -140,4 +144,5 @@ object DepVers {
     const val IRON_SOURCE_VERS = "7.4.0.0"
     const val PANGLE_VERS = "5.3.0.6.0"
     const val META_VERS = "6.16.0.0"
+    const val FACEBOOK_SDK_VERS = "16.2.0"
 }
