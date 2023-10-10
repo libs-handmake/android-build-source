@@ -5,7 +5,7 @@ import Deps
 import org.gradle.kotlin.dsl.DependencyHandlerScope
 
 fun DependencyHandlerScope.composeImplementations() {
-    val composeBom = platform("androidx.compose:compose-bom:2023.08.00")
+    val composeBom = platform("androidx.compose:compose-bom:2023.09.02")
     "implementation"(composeBom)
     "androidTestImplementation"(composeBom)
 
