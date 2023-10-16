@@ -55,6 +55,7 @@ object Deps {
     const val ADMOB = "com.google.android.gms:play-services-ads:${DepVers.ADMOB_VER}"
     const val SHIMMER_LAYOUT = "com.facebook.shimmer:shimmer:${DepVers.SHIMMER_VER}"
     const val FLAG_KIT = "com.github.murgupluoglu:flagkit-android:${DepVers.FLAG_KIT_VER}"
+    const val CAMERA_VIEW = "com.otaliastudios:cameraview:${DepVers.CAMERA_VIEW_VER}"
 
     val CAMERAX_REQUIREMENT_LIBS = arrayOf(
         "androidx.camera:camera-core:${DepVers.CAMERAX_VER}",
@@ -145,4 +146,5 @@ object DepVers {
     const val PANGLE_VERS = "5.3.0.6.0"
     const val META_VERS = "6.16.0.0"
     const val FACEBOOK_SDK_VERS = "16.2.0"
+    const val CAMERA_VIEW_VER = "2.7.2"
 }
