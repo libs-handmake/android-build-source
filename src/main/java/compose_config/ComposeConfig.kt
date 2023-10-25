@@ -46,5 +46,6 @@ fun DependencyHandlerScope.composeImplementations() {
     //other support
     "implementation"(Deps.HILT_NAV_COMPOSE)
     "implementation"(Deps.GLIDE_COMPOSE)
+    "implementation"(Deps.CONSTRAINT_LAYOUT_COMPOSE)
 
 }
