@@ -11,8 +11,8 @@ object AdmobDeps {
 
 object AdmobDepsVer {
     const val APPLOVIN_VERS = "11.11.3.0"
-    const val MINTEGRAL_VERS = "16.5.21.0"
+    const val MINTEGRAL_VERS = "16.5.31.0"
     const val IRON_SOURCE_VERS = "7.4.0.0"
-    const val PANGLE_VERS = "5.5.0.4.0"
+    const val PANGLE_VERS = "5.5.0.6.0"
     const val META_VERS = "6.16.0.0"
 }
