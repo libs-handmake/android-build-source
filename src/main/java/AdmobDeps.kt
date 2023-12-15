@@ -6,6 +6,8 @@ object AdmobDeps {
         "com.google.ads.mediation:ironsource:${AdmobDepsVer.IRON_SOURCE_VERS}"
     const val PANGLE_ADAPTER = "com.google.ads.mediation:pangle:${AdmobDepsVer.PANGLE_VERS}"
     const val META_NETWORK = "com.google.ads.mediation:facebook:${AdmobDepsVer.META_VERS}"
+    const val USER_MESSAGE_PLATFORM =
+        "com.google.android.ump:user-messaging-platform:${AdmobDepsVer.UMP_VER}"
 }
 
 
@@ -15,4 +17,5 @@ object AdmobDepsVer {
     const val IRON_SOURCE_VERS = "7.4.0.0"
     const val PANGLE_VERS = "5.5.0.6.0"
     const val META_VERS = "6.16.0.0"
+    const val UMP_VER = "2.1.0"
 }
