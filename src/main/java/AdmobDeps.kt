@@ -12,10 +12,10 @@ object AdmobDeps {
 
 
 object AdmobDepsVer {
-    const val APPLOVIN_VERS = "11.11.3.0"
-    const val MINTEGRAL_VERS = "16.5.31.0"
-    const val IRON_SOURCE_VERS = "7.4.0.0"
-    const val PANGLE_VERS = "5.5.0.6.0"
+    const val APPLOVIN_VERS = "12.1.0.0"
+    const val MINTEGRAL_VERS = "16.5.91.1"
+    const val IRON_SOURCE_VERS = "7.7.0.0"
+    const val PANGLE_VERS = "5.7.0.2.0"
     const val META_VERS = "6.16.0.0"
     const val UMP_VER = "2.1.0"
 }
