@@ -11,6 +11,7 @@ object AdmobDeps {
 
     const val UNITY_ADS = "com.unity3d.ads:unity-ads:${AdmobDepsVer.UNITY_ADS_VER}"
     const val UNITY_ADS_MEDIATION = "com.google.ads.mediation:unity:${AdmobDepsVer.UNITY_ADS_MEDIATION_VER}"
+    const val VUNGLE_ADS_MEDIATION = "com.google.ads.mediation:vungle:${AdmobDepsVer.VUNGLE_VER}"
 }
 
 
@@ -23,4 +24,5 @@ object AdmobDepsVer {
     const val UMP_VER = "2.1.0"
     const val UNITY_ADS_VER = "4.9.2"
     const val UNITY_ADS_MEDIATION_VER = "4.9.2.0"
+    const val VUNGLE_VER = "7.1.0.0"
 }
