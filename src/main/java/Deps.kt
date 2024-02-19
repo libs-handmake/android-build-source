@@ -128,7 +128,7 @@ object DepVers {
     const val CAMERAX_VER = "1.3.0-alpha05"
     const val EXO_PLAYER_3_VER = "1.1.1"
     const val EXO_PLAYER_2_VER = "2.19.1"
-    const val MEDIA_VER = "1.6.0"
+    const val MEDIA_VER = "1.7.0"
     const val APP_LOVIN_VER = "+"
     const val GOOGLE_PLAY_SERVICE_VER = "21.0.1"
     const val GOOGLE_ADS_IDENTIFIER = "18.0.1"
