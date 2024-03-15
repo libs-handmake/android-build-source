@@ -6,6 +6,6 @@ object ClassPath {
 }
 
 object ClassPathVer {
-    const val GOOGLE_PLAY_SERVICE = "4.3.15"
+    const val GOOGLE_PLAY_SERVICE = "4.4.1"
     const val CRASHLYTIC_VER = "2.9.9"
 }
