@@ -119,7 +119,7 @@ object DepVers {
     const val GLIDE_VER = "4.16.0"
     const val LOTTIE_VER = "6.1.0"
     const val RETROFIT_VER = "2.9.0"
-    const val ROOM_VER = "2.5.2"
+    const val ROOM_VER = "2.6.1"
     const val CIRCLE_IMAGEVIEW_VER = "3.1.0"
     const val RECYCLER_VIEW_VER = "1.3.1"
     const val FRAGMENT_VERSION = "1.6.1"
