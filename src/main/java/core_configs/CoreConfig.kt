@@ -1,8 +1,9 @@
 package core_configs
 
+import Deps
 import org.gradle.kotlin.dsl.DependencyHandlerScope
 
-fun DependencyHandlerScope.coreAppImplementations(){
+fun DependencyHandlerScope.coreAppImplementations() {
     "implementation"(Deps.KTX_CORE)
     "implementation"(Deps.APPCOMPAT)
     "implementation"(Deps.MATERIAL)
@@ -14,7 +15,7 @@ fun DependencyHandlerScope.coreAppImplementations(){
     "implementation"(Deps.GSON)
 }
 
-fun DependencyHandlerScope.jetpackComponentImplementation(){
+fun DependencyHandlerScope.jetpackComponentImplementation() {
     "implementation"(Deps.SDP)
     "implementation"(Deps.SSP)
     "implementation"(Deps.CIRCLE_IMAGE_VIEW)
@@ -32,5 +33,7 @@ fun DependencyHandlerScope.jetpackComponentImplementation(){
     "kapt"(Deps.LIFECYCLE_JAVA_COMMON)
     "implementation"(Deps.LIFECYCLE_JAVA_COMMON)
     "implementation"(Deps.FRAGMENT_KTX)
+    "implementation"(Deps.ACTIVITY)
+    "implementation"(Deps.ACTIVITY_KTX)
     "implementation"(Deps.ROUNDED_IMAGEVIEW)
 }

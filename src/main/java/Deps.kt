@@ -38,6 +38,8 @@ object Deps {
     const val CIRCLE_IMAGE_VIEW = "de.hdodenhof:circleimageview:${DepVers.CIRCLE_IMAGEVIEW_VER}"
     const val RECYCLER_VIEW = "androidx.recyclerview:recyclerview:${DepVers.RECYCLER_VIEW_VER}"
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${DepVers.FRAGMENT_VERSION}"
+    const val ACTIVITY = "androidx.activity:activity:${DepVers.FRAGMENT_VERSION}"
+    const val ACTIVITY_KTX = "androidx.activity:activity-ktx:${DepVers.FRAGMENT_VERSION}"
     const val ROUNDED_IMAGEVIEW = "com.makeramen:roundedimageview:${DepVers.ROUNDED_IMAGE_VERSION}"
     const val FLEXBOX_LAYOUT = "com.google.android.flexbox:flexbox:${DepVers.FLEXBOX_VER}"
     const val MEDIA = "androidx.media:media:${DepVers.MEDIA_VER}"
@@ -89,7 +91,8 @@ object Deps {
 
     const val COMPOSE_LOTTIES = "com.airbnb.android:lottie-compose:${DepVers.LOTTIE_VER}"
     const val GLIDE_COMPOSE = "com.github.bumptech.glide:compose:${DepVers.GLIDE_COMPOSE}"
-    const val CONSTRAINT_LAYOUT_COMPOSE = "androidx.constraintlayout:constraintlayout-compose:${DepVers.CONSTRAINT_LAYOUT_COMPOSE_VER}"
+    const val CONSTRAINT_LAYOUT_COMPOSE =
+        "androidx.constraintlayout:constraintlayout-compose:${DepVers.CONSTRAINT_LAYOUT_COMPOSE_VER}"
     const val SHIMMER_COMPOSE = "com.valentinilk.shimmer:compose-shimmer:${DepVers.SHIMMER_COMPOSE}"
     const val HILT_NAV_COMPOSE =
         "androidx.hilt:hilt-navigation-compose:${DepVers.HILT_NAV_COMPOSE_VER}"
