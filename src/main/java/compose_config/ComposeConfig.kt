@@ -13,6 +13,7 @@ fun DependencyHandlerScope.composeImplementations() {
     // Choose one of the following:
     // Material Design 3
     "implementation"("androidx.compose.material3:material3")
+    "implementation"("androidx.compose.material3:material3-android:1.2.1")
     // or skip Material Design and build directly on top of foundational components
     "implementation"("androidx.compose.foundation:foundation")
     // or only import the main APIs for the underlying toolkit systems,
