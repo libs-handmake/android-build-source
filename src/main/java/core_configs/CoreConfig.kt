@@ -19,7 +19,6 @@ fun DependencyHandlerScope.jetpackComponentImplementation() {
     "implementation"(Deps.SDP)
     "implementation"(Deps.SSP)
     "implementation"(Deps.CIRCLE_IMAGE_VIEW)
-    "implementation"(Deps.RECYCLER_VIEW)
     "implementation"(Deps.HILT)
     "kapt"(Deps.HILT_COMPILER)
     "implementation"(Deps.GLIDE)

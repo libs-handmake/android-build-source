@@ -124,7 +124,7 @@ object DepVers {
     const val RETROFIT_VER = "2.9.0"
     const val ROOM_VER = "2.6.1"
     const val CIRCLE_IMAGEVIEW_VER = "3.1.0"
-    const val RECYCLER_VIEW_VER = "1.3.1"
+    const val RECYCLER_VIEW_VER = "1.3.2"
     const val FRAGMENT_VERSION = "1.6.1"
     const val ROUNDED_IMAGE_VERSION = "2.3.0"
     const val FLEXBOX_VER = "3.0.0"
