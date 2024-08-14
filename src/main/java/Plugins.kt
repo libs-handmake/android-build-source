@@ -10,10 +10,10 @@ object Plugins {
 }
 
 object PluginsVer {
-    const val GRADLE_VER = "8.1.1"
-    const val HILT_VER = "2.47"
-    const val UPDATE_VER = "0.47.0"
+    const val GRADLE_VER = "8.3.1"
+    const val HILT_VER = "2.52"
+    const val UPDATE_VER = "0.51.0"
     const val APP_LOVIN_VER = "4.3.7"
-    const val COMPOSE_COMPILER = "1.5.3"
-    const val KOTLIN_VER = "1.9.10"
+    const val COMPOSE_COMPILER = "1.5.15"
+    const val KOTLIN_VER = "2.0.10"
 }

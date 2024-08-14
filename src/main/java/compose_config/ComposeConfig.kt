@@ -5,7 +5,7 @@ import Deps
 import org.gradle.kotlin.dsl.DependencyHandlerScope
 
 fun DependencyHandlerScope.composeImplementations() {
-    val composeBom = platform("androidx.compose:compose-bom:2023.10.00")
+    val composeBom = platform("androidx.compose:compose-bom:2024.06.00")
     "implementation"(composeBom)
     "androidTestImplementation"(composeBom)
 
@@ -35,7 +35,7 @@ fun DependencyHandlerScope.composeImplementations() {
     "implementation"("androidx.compose.material3:material3-window-size-class")
 
     // Optional - Integration with activities
-    "implementation"("androidx.activity:activity-compose:1.8.0")
+    "implementation"("androidx.activity:activity-compose:1.9.1")
     // Optional - Integration with ViewModels
     "implementation"("androidx.lifecycle:lifecycle-viewmodel-compose:${DepVers.LIFECYCLE_VER}")
     "implementation"("androidx.lifecycle:lifecycle-runtime-compose:${DepVers.LIFECYCLE_VER}")
