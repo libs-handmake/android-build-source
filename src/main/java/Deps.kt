@@ -141,7 +141,7 @@ object DepVers {
     const val SHIMMER_VER = "0.5.0"
     const val FLAG_KIT_VER = "1.0.2"
     const val NAVIAGATION_VER = "2.7.7"
-    const val ADJUST_SDK_VER = "5.0.0"
+    const val ADJUST_SDK_VER = "4.38.5"
     const val TENSOR_FLOW_AUDIO_TASK = "0.3.0"
     const val HILT_NAV_COMPOSE_VER = "1.2.0"
     const val GLIDE_COMPOSE = "1.0.0-alpha.5"
